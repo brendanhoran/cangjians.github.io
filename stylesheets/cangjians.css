@@ -20,3 +20,9 @@ nav a.active {
   color: white;
   border-bottom: solid 2px #f2f2f2;
 }
+
+ul li {
+  list-style: disc outside none;
+  margin-left: 2em;
+  padding-left: 0.2em;
+}
