@@ -6,20 +6,20 @@ div#main_content_wrap {
   border-top: 0;
 }
 
-nav {
+nav#main_nav {
   margin-top: 1em;
   border: 0px;
 }
-nav a {
+nav#main_nav a {
   display: inline-block;
   padding: 0.5em 1.2em;
   font-weight: bold;
   color: #dadee8;
 }
-nav a:hover {
+nav#main_nav a:hover {
   color: white;
 }
-nav a.active {
+nav#main_nav a.active {
   color: white;
   border-bottom: solid 2px #f2f2f2;
 }
