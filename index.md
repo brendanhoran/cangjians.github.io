@@ -15,7 +15,9 @@ In here, you will find some informations about our Free Software projects:
 
 * [libcangjie2](projects/libcangjie2.html), the library implementing the
   Cangjie input method
+
 * [pycangjie](projects/pycangjie.html), the Python bindings to libcangjie2
+
 * [IBus Cangjie](projects/ibus-cangjie.html), the IBus engine for users of the
   Cangjie and Quick input methods
 
