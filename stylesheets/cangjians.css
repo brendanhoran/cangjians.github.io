@@ -27,6 +27,29 @@ nav#main_nav a.active {
   border-bottom: solid 2px #f2f2f2;
 }
 
+div#project_nav_wrap {
+  background: linear-gradient(to bottom, #333333 0%, #696969 100%);
+}
+div#project_nav_inner {
+  padding: 0;
+}
+nav#project_nav {
+  padding: 0 2em;
+}
+nav#project_nav a {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  font-weight: bold;
+  color: #dadee8;
+}
+nav#project_nav a:hover {
+  color: white;
+}
+nav#project_nav a.active {
+  color: white;
+  border-bottom: solid 2px #f2f2f2;
+}
+
 ul li {
   list-style: disc outside none;
   margin-left: 2em;

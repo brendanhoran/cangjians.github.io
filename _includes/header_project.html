@@ -1,0 +1,18 @@
+      <div id="project_nav_wrap" class="outer">
+
+        <div id="project_nav_inner" class="inner">
+
+          <nav id="project_nav">
+            <a class="{% if page.sub == 'home' %}active{% endif %}"
+               href="/projects/{{ page.project }}/">{{ page.project }}</a>
+            <a class="{% if page.sub == 'doc' %}active{% endif %}"
+               href="/projects/{{ page.project }}/documentation.html">Documentation</a>
+            <a class="{% if page.sub == 'install' %}active{% endif %}"
+               href="/projects/{{ page.project }}/install.html">Install</a>
+            <a class="{% if page.sub == 'contribute' %}active{% endif %}"
+               href="/projects/{{ page.project }}/contribute.html">Contribute</a>
+          </nav>
+
+        </div>
+
+      </div>

@@ -16,6 +16,10 @@
 
 {% include header.html %}
 
+    {% if page.project %}
+      {% include header_project.html %}
+    {% endif %}
+
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
