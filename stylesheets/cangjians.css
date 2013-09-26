@@ -2,10 +2,13 @@ header.inner {
   padding-bottom: 0px !important;
 }
 
+div#main_content_wrap {
+  border-top: 0;
+}
+
 nav {
   margin-top: 1em;
   border: 0px;
-  margin-bottom: -1px;
 }
 nav a {
   display: inline-block;
