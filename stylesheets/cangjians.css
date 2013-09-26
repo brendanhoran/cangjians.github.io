@@ -1,0 +1,23 @@
+header.inner {
+  padding-bottom: 0px !important;
+}
+
+nav {
+  margin-top: 1em;
+  border: 0px;
+  margin-bottom: -1px;
+}
+nav a {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  border: solid 1px #232323;
+  font-weight: bold;
+  color: #e9edf2;
+}
+nav a:hover {
+  color: white;
+}
+nav a.active {
+  color: white;
+  border-bottom: solid 2px #f2f2f2;
+}

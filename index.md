@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Cangjians
+name: home
 ---
 
 ## Welcome to Cangjia
