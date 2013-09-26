@@ -13,12 +13,12 @@ about Free Software, and dedicated to the
 
 In here, you will find some informations about our Free Software projects:
 
-* [libcangjie2](projects/libcangjie2.html), the library implementing the
+* [libcangjie2](/projects/libcangjie2/), the library implementing the
   Cangjie input method
 
-* [pycangjie](projects/pycangjie.html), the Python bindings to libcangjie2
+* [pycangjie](/projects/pycangjie/), the Python bindings to libcangjie2
 
-* [IBus Cangjie](projects/ibus-cangjie.html), the IBus engine for users of the
+* [IBus Cangjie](/projects/ibus-cangjie/), the IBus engine for users of the
   Cangjie and Quick input methods
 
 Everything we do is Free Software. This is because we respect your Freedom,
