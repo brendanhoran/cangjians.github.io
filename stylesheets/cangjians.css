@@ -55,3 +55,11 @@ ul li {
   margin-left: 2em;
   padding-left: 0.2em;
 }
+
+img#cangjie_home {
+  border: 0;
+  box-shadow: 0;
+  width: auto !important;
+  margin: 1em auto;
+  display: block;
+}

@@ -6,6 +6,11 @@ name: home
 
 ## Welcome to Cangjia
 
+<img src="/images/cangjie-without-codes.png"
+     alt="Cangjiception - CC-By-SA - Jacqueline Wong"
+     title="Cangjiception - CC-By-SA - Jacqueline Wong"
+     id="cangjie_home" />
+
 This is the home the Cangjians, a team of [people](people.html) passionate
 about Free Software, and dedicated to the
 [Cangjie](https://en.wikipedia.org/wiki/Cangjie_input_method) and
