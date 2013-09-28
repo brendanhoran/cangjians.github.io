@@ -58,7 +58,7 @@ ul li {
 
 img#cangjie_home {
   border: 0;
-  box-shadow: 0;
+  box-shadow: 0 0;
   width: auto !important;
   margin: 1em auto;
   display: block;
