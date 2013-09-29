@@ -46,6 +46,10 @@ according to Linus' Law, *given enough eyeballs, all bugs are shallow*.
 
 This applies to [all of our projects](/projects/), as well as this website.
 
+In addition, we try to pay attention to having good commit messages. Be sure
+to read Peter Hutterer’s great post about
+[writing good commit messages](http://who-t.blogspot.hk/2009/12/on-commit-messages.html).
+
 ### Contribute to this website
 
 This website is also Free as in Freedom, just like [our software](/projects/).
