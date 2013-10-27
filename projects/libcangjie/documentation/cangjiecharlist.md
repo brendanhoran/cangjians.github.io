@@ -1,6 +1,6 @@
 ---
 layout: default
-title: libcangjie documentation
+title: libcangjie documentation - Lists of characters
 name: projects
 project: libcangjie
 sub: doc

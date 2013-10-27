@@ -1,6 +1,6 @@
 ---
 layout: default
-title: libcangjie documentation
+title: libcangjie documentation - The Cangjie versions
 name: projects
 project: libcangjie
 sub: doc
