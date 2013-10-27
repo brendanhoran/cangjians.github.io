@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ibus Cangjie
+title: IBus Cangjie
 name: projects
 project: ibus-cangjie
 sub: home
