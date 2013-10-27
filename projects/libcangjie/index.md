@@ -6,7 +6,7 @@ project: libcangjie
 sub: home
 ---
 
-This is a library implementing the Cangjie input method.
+This is a C library implementing the Cangjie input method.
 
 Below is a trivial example of how to use it:
 
