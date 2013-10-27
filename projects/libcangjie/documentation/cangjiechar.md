@@ -1,14 +1,14 @@
 ---
 layout: default
-title: libcangjie2 documentation
+title: libcangjie documentation
 name: projects
-project: libcangjie2
+project: libcangjie
 sub: doc
 ---
 
 ## The CangjieChar structure
 
-This is the basic currency unit in libcangjie2. `CangjieChar`'s are what the
+This is the basic currency unit in libcangjie. `CangjieChar`'s are what the
 functions return when you want to find what character corresponds to a certain
 Cangjie code.
 
