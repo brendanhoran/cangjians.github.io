@@ -18,10 +18,10 @@ about Free Software, and dedicated to the
 
 In here, you will find some informations about our Free Software projects:
 
-* [libcangjie2](/projects/libcangjie2/), the library implementing the
+* [libcangjie](/projects/libcangjie/), the library implementing the
   Cangjie input method
 
-* [pycangjie](/projects/pycangjie/), the Python bindings to libcangjie2
+* [pycangjie](/projects/pycangjie/), the Python bindings to libcangjie
 
 * [IBus Cangjie](/projects/ibus-cangjie/), the IBus engine for users of the
   Cangjie and Quick input methods

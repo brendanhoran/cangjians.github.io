@@ -1,15 +1,15 @@
 ---
 layout: default
-title: libcangjie2 documentation
+title: libcangjie documentation
 name: projects
-project: libcangjie2
+project: libcangjie
 sub: doc
 ---
 
 ## The Cangjie context
 
 Now this is really the interesting part: it is the actual entry point to the
-library. For everything worth doing with libcangjie2, you will want to get a
+library. For everything worth doing with libcangjie, you will want to get a
 hold on a `Cangjie` context.
 
 Here is how it is defined:
