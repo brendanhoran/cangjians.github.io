@@ -23,3 +23,14 @@ girlfriend type Chinese on his laptop running Linux.
 Now that she actually can, she insists on finding bugs in
 [IBus Cangjie](/projects/ibus-cangjie), which keeps Mathieu busy trying to fix
 them.
+
+### Honorary members
+
+Even though he is too busy to be involved at the moment, we feel we need to
+acknowledge [Wan Leung Wong](http://www.wanleung.com/) for his contributions.
+
+Wan Leung wrote
+[the original libcangjie](https://github.com/wanleung/libcangjie), and has
+taught Mathieu everything about Cangjie.
+
+Quite simply, the Cangjians wouldn't exist today without Wan Leung.
