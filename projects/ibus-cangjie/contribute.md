@@ -3,6 +3,7 @@ layout: default
 title: Contribute to IBus Cangjie
 name: projects
 project: ibus-cangjie
+pretty_project: IBus Cangjie
 sub: contribute
 ---
 

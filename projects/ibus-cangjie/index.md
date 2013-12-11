@@ -3,6 +3,7 @@ layout: default
 title: IBus Cangjie
 name: projects
 project: ibus-cangjie
+pretty_project: IBus Cangjie
 sub: home
 ---
 
