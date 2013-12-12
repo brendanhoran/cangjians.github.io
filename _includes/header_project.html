@@ -4,7 +4,7 @@
 
           <nav id="project_nav">
             <a class="{% if page.sub == 'home' %}active{% endif %}"
-               href="/projects/{{ page.project }}/">{{ page.project }}</a>
+               href="/projects/{{ page.project }}/">{% if page.pretty_project %}{{ page.pretty_project }}{% else %}{{ page.project }}{% endif %}</a>
             <a class="{% if page.sub == 'doc' %}active{% endif %}"
                href="/projects/{{ page.project }}/documentation">Documentation</a>
             <a class="{% if page.sub == 'install' %}active{% endif %}"

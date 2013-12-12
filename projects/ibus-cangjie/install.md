@@ -3,6 +3,7 @@ layout: default
 title: Installing IBus Cangjie
 name: projects
 project: ibus-cangjie
+pretty_project: IBus Cangjie
 sub: install
 ---
 
