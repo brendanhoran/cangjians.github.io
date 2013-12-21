@@ -98,9 +98,11 @@ machine.
 Once you are happy with it, publish the tarball on the website so that users
 can download it.
 
-_**Todo:** Detail how to publish the tarball._
+All there is to do is to place the new tarball in the `downloads/$project/`
+folder in the `cangjians.github.io` source tree, then commit and push it.
 
-Finally, you need to tag the commit from which you made the release:
+Finally, you need to tag the commit from which you made the release. Back in
+the source tree of the project you are releasing:
 
 ```
 $ git tag vMAJOR.MINOR
