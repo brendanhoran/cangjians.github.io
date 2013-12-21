@@ -87,7 +87,7 @@ the archive:
 $ make distcheck
 ```
 
-This will first create the tarball, then un pack it, change directory to the
+This will first create the tarball, then unpack it, change directory to the
 unpacked tree, try building the code, and run the unit tests. That is, it will
 make the release, and try doing what a user would do.
 
