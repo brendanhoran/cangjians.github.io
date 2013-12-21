@@ -73,8 +73,15 @@ interest to developers in general.*
 When release-time comes, someone will have to actually produce the release
 tarball for a given project. This is how.
 
-Inside the project root directory, run the following command to create the
-archive:
+First, bump the version appropriately. We use a very simple MAJOR.MINOR
+versioning scheme:
+
+* if any user-visible change was introduced (new UI, API/ABI break,...) then
+  bump the MAJOR version,
+* otherwise, bump the MINOR version.
+
+Then, inside the project root directory, run the following command to create
+the archive:
 
 ```
 $ make distcheck
@@ -96,8 +103,8 @@ _**Todo:** Detail how to publish the tarball._
 Finally, you need to tag the commit from which you made the release:
 
 ```
-$ git tag vX.Y.Z
-$ git push origin vX.Y.Z
+$ git tag vMAJOR.MINOR
+$ git push origin vMAJOR.MINOR
 ```
 
-Of course, replace `vX.Y.Z` by the actual version of this new release.
+Of course, replace `vMAJOR.MINOR` by the actual version of this new release.
