@@ -73,14 +73,21 @@ interest to developers in general.*
 When release-time comes, someone will have to actually produce the release
 tarball for a given project. This is how.
 
-Inside the project root directory, run the following command to create the
-archive:
+First, bump the version appropriately. We use a very simple MAJOR.MINOR
+versioning scheme:
+
+* if any user-visible change was introduced (new UI, API/ABI break,...) then
+  bump the MAJOR version,
+* otherwise, bump the MINOR version.
+
+Then, inside the project root directory, run the following command to create
+the archive:
 
 ```
 $ make distcheck
 ```
 
-This will first create the tarball, then un pack it, change directory to the
+This will first create the tarball, then unpack it, change directory to the
 unpacked tree, try building the code, and run the unit tests. That is, it will
 make the release, and try doing what a user would do.
 
@@ -91,13 +98,15 @@ machine.
 Once you are happy with it, publish the tarball on the website so that users
 can download it.
 
-_**Todo:** Detail how to publish the tarball._
+All there is to do is to place the new tarball in the `downloads/$project/`
+folder in the `cangjians.github.io` source tree, then commit and push it.
 
-Finally, you need to tag the commit from which you made the release:
+Finally, you need to tag the commit from which you made the release. Back in
+the source tree of the project you are releasing:
 
 ```
-$ git tag vX.Y.Z
-$ git push origin vX.Y.Z
+$ git tag vMAJOR.MINOR
+$ git push origin vMAJOR.MINOR
 ```
 
-Of course, replace `vX.Y.Z` by the actual version of this new release.
+Of course, replace `vMAJOR.MINOR` by the actual version of this new release.
