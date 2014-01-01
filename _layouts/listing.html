@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Index of {{ page.path }}</title>
+  <style>
+    td {
+      padding: 0 0.5em;
+    }
+  </style>
+ </head>
+ <body>
+  <h1>Index of {{ page.path }}</h1>
+  <table>
+   <tr><th>Name</th><th>Last modified</th><th>Size</th></tr>
+   <tr><td colspan="3"><a href="..">Parent Directory</a></td></tr>
+
+{{ content }}
+
+  </table>
+ </body>
+</html>
