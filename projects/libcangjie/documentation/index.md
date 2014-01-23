@@ -21,3 +21,8 @@ part is the last of the list, we recommend you read them in order:
 4. the [`CangjieChar` structure](cangjiechar.html)
 5. the [`CangjieCharList` character lists](cangjiecharlist.html)
 6. the [`Cangjie` context](cangjie.html)
+
+libcangjie also comes with a command-line tool, which can be seen as an
+example of how to use the API, and is useful for testing/debugging purpose:
+`libcangjie_cli`. Read [its documentation](cli.html) for details on how to use
+it.
