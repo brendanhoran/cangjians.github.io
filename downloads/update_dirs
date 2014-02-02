@@ -24,6 +24,7 @@
 import datetime
 import os
 import sys
+import time
 
 
 header = """---
@@ -33,12 +34,16 @@ project: %s
 
 """
 
-line = '<tr><td><a href="%s">%s</a></td><td>%s</td><td>%s</td></tr>'
+line = '<tr><td><a href="%s">%s</a></td><td>%s</td><td>%s</td></tr>\n'
 
 
 def format_time(t):
     mtime = datetime.datetime.fromtimestamp(t)
-    return mtime.strftime("%d-%b-%y %H:%M")
+
+    tz_offset = - (time.timezone / 36)
+    tz_offset = "+%04d" % tz_offset if tz_offset > 0 else "%05d" % tz_offset
+
+    return "%s %s" % (mtime.strftime("%d-%b-%y %H:%M"), tz_offset)
 
 def format_size(size_b):
     size_g = size_b / 1000000000.0
@@ -84,7 +89,7 @@ for root, dirs, files in os.walk("."):
 
         file_list.append(line % (name, name, mtime, size))
 
-    index = header % root + "\n".join(file_list)
+    index = header % root + "".join(file_list)
 
     with open(os.path.join(root, "index.md"), "w") as out_:
         out_.write(index)
