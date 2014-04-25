@@ -38,7 +38,7 @@ $ sudo yum install ibus-cangjie
 
 ## Gentoo
 
-IBus Cangjie is included in the Gentoo repositories. Its currently masked.
+IBus Cangjie is included in the Gentoo repositories. It is currently masked.
 You will need to add "app-i18n/ibus-cangjie" to your /etc/portage/package.accept_keywords 
 or use autounmask. Once unmasked install as root with :
 
